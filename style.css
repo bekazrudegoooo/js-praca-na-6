@@ -1,0 +1,140 @@
+body {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+* {
+    color: aliceblue;
+}
+#ageControl {
+    position: fixed;
+    width: 80vw;
+    height: 80vh;
+    top: 10vh;
+    left: 10vw;
+    background-color: black;
+    border-radius: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.3vw solid aliceblue;
+}
+#ageControl input {
+    width: 50vw;
+    font-size: 3vw;
+    margin-bottom: 5vh;
+    color: black;
+}
+#ageControl h2 {
+    text-align: center;
+    font-size: 5vw;
+    margin-top: -10vh;
+}
+#ageControl button {
+    transform: scale(2.5);
+    background-color: black;
+    border-style: none;
+    padding: 0.2vh 0.3vw;
+    border-radius: 2vw;
+    border: 0.1vw solid aliceblue;
+}
+#ageControl button:hover {
+    color: black;
+    background-color: aliceblue;
+    transition: 0.5s;
+}
+select,option {
+    color: black;
+    width: 30%;
+    height: auto;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+select {
+    border: 2px solid aliceblue;
+    border-radius: 7px 7px 0px 0px;
+}
+.controlButons {
+    background-color: black;
+    border: 3px solid aliceblue;
+    margin: 30px 5px 0 5px;
+    border-radius: 5px;
+}
+.controlButons:hover  {
+    background-color: aliceblue;
+    transition: 0.4s;
+}
+.controlButons:hover * {
+    color: black;
+    font-weight: bold;
+    transition: 0.4s;
+}
+video {
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    border: 2px solid aliceblue;
+}
+#opener {
+    width: 10vw;
+    height: auto;
+    background-color: rgb(36, 155, 36);
+    border-style: none;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 26px 15px 26px 26px;
+    text-align: center;
+    box-sizing: content-box;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+#opener:hover {
+    background-color: rgb(68, 158, 68);
+    transition: 0.5s;
+    border: 0.3px solid aliceblue;
+    padding-right: 40px;
+}
+#arrow {
+    font-size: 50px;
+    margin-left: 10px;
+    margin-top: 3px;
+    font-weight: bold;
+    opacity: 0;
+    transition: 0.2s;
+}
+#opener:hover #arrow {
+    display: inline;
+    opacity: 1;
+    transition: 1.2s;
+}
+#aligner {
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+#author {
+    width: 100%;
+    font-size: 100px;
+    text-align: center;
+    border-bottom: 12px solid aliceblue;
+    padding-bottom: 20px;
+    border-radius: 30px;
+}
+#triangle
+{
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 30px solid aliceblue;
+    margin-top: -100px;
+    margin-bottom: 50px;
+}
